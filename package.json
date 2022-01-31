@@ -1,0 +1,25 @@
+{
+  "name": "projindachatroom",
+  "version": "1.0.0",
+  "description": "Projektuppgift INDA",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gits-15.sys.kth.se:nilsfors/ProjINDAchatroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "2.0.5"
+  }
+}
